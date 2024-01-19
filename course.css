@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/g_background.jpg);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    
+}
+
+.course-section {
+    text-align: center;
+}
+
+.course-card {
+    background-color: #424141;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #e4dede;
+}
+
+h2 {
+    color: #0f0f0f;
+}
+
+p {
+    color: #161616;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.get-started-btn {
+    background-color: #555;
+    color: #c2bdbd;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+nav h1{
+    font-size: 50px;
+
+}
+nav span{
+    color: rgb(235, 12, 12);
+}
+
+ul button{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+ul li a{
+
+    margin-inline: 30px;
+    font-size: 20px;
+    color: rgb(247, 243, 243);
+    
+
+}
+
+ul li a:hover{
+    border-bottom: 4px solid rgba(248, 248, 255, 0.911);
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+

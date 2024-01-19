@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/g_background.jpg);
+}
+
+
+main {
+    padding: 2rem;
+}
+
+.hero-section {
+    text-align: center;
+    background-image: url('gym-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    color: #e7e2e2;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.cta-button {
+    background-color: #555;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.about-section, .services-section {
+    margin-bottom: 2rem;
+}
+
+.about-section h2, .services-section h2 {
+    color: #f5e9e9;
+    margin-bottom: 1rem;
+}
+
+.services-section ol {
+    list-style: circle;
+    padding: 0;
+    color: white;
+}
+
+.services-section li {
+    margin-bottom: 0.5rem;
+    color: white;
+    list-style: circle;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+    
+}
+
+nav h1{
+    font-size: 50px;
+    color: white;
+
+}
+nav span{
+    color: rgb(235, 12, 12);
+}
+
+ul button{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+ul li a{
+
+    margin-inline: 30px;
+    font-size: 20px;
+    color: rgb(247, 243, 243);
+    
+
+}
+
+ul li a:hover{
+    border-bottom: 4px solid rgba(248, 248, 255, 0.911);
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
